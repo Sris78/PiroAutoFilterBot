@@ -22,10 +22,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '5211965803:AAHI0fNyrBFNO6Lvu8ep3tn2ccQ_7cS
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Bot images & videos
-PICS = (environ.get('PICS', 'https://pasteboard.co/4CxabpNuT2PU.jpg https://pasteboard.co/CZQ0t2GUgpjv.jpg https://pasteboard.co/tZ8WIT1t09vo.jpg https://pasteboard.co/z2dn9YniiSh0.jpg https://pasteboard.co/HRRWPWkkERa1.jpg https://pasteboard.co/gcWU5oxmy9sx.jpg https://pasteboard.co/SYoOjy0n7tKi.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/0593a3103ba1b9a5855bf.jpg")
+PICS = (environ.get('PICS', 'https://pasteboard.co/4xPHAKCHEQxd.jpg https://pasteboard.co/F3FDkpYsBvv0.jpg https://pasteboard.co/mfVmchaK60of.jpg https://pasteboard.co/9zaOtXGTlDyJ.jpg https://pasteboard.co/eMIwaqMq0Tiz.jpg https://pasteboard.co/yZobEbHwPDJF.jpg https://pasteboard.co/vproZBSUAJu4.jpg https://pasteboard.co/m6IxG0P9gUJL.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://pasteboard.co/4xPHAKCHEQxd.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/ea40f1b53dd3b6315c130.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2a888a370f479f4338f7c.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://pasteboard.co/F3FDkpYsBvv0.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1823620269 1546983881 1738851213').split()]
@@ -58,9 +58,9 @@ IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '📂 <em>File Name</em>: <code>PIRO|{file_name}</code> \n\n🖇 <em>File Size</em>: <code>{file_size}</code> \n\n❤️‍🔥 </i>Join</i> [𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗟𝗜𝗡𝗞𝗭](https://t.me/blaster_linkz)  \n\n🖥 <i>Requests</i> - ||@raixchat|| ')
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '📂 <em>File Name</em>: <code>MVREQU|{file_name}</code> \n\n🖇 <em>File Size</em>: <code>{file_size}</code> \n\n❤️‍🔥 </i>Join</i> [Movies Request](https://t.me/mvrequ)  \n\n🖥 <i>Requests</i> - ||@sanjanasri3|| ')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '')
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [『ᴘɪʀᴏ』](t.me/piroxbots)')
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [『ᴘɪʀᴏ』](t.me/sanjanasri3)')
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
