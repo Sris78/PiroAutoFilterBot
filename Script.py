@@ -209,7 +209,7 @@ Message <b>: {}</b>"""
 
 🖇 <em>File Size</em>: <code>{file_size}</code> 
 
-❤️‍🔥 </i>Join</i> [𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗟𝗜𝗡𝗞𝗭](https://t.me/copynoet)  
+❤️‍🔥 </i>Join</i> [COPY NOTE](https://t.me/copynoet)  
 
 🖥 <i>Requests</i> - ||@Sanjanasri3|| """
 
